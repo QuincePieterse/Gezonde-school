@@ -1,0 +1,154 @@
+/* Algemeen */
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  min-height: 100vh;
+}
+
+section {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+p span {
+  font-weight: 500;
+}
+
+/* header */
+header {
+  background-color: #00ade6;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+header img {
+  width: 150px;
+}
+
+header a {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+header a.logo {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 800;
+  text-decoration: none;
+  color: white;
+}
+/* Main */
+.two-coll {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+main section {
+  background-color: #fafafa;
+  border: solid 1px #dbdbdb;
+  width: 100%;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+main section h2 {
+  margin-top: 0;
+}
+
+main img {
+  width: 100%;
+  max-width: 300px;
+  height: fit-content;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+ul li {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+/* table */
+table {
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+  background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/* Footer */
+footer {
+  padding: 20px;
+}
+
+footer p {
+  color: black;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+}
